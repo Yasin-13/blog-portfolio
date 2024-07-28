@@ -12,7 +12,6 @@ const Home = () => {
 
   return (
     <div className="flex h-screen">
-      <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       <main className="flex-1 p-8 bg-slate-950 text-white relative overflow-auto">
         <div className="md:hidden">
           <button onClick={toggleSidebar} className="absolute top-4 left-4">

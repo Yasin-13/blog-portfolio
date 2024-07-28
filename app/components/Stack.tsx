@@ -19,7 +19,7 @@ const tools = [
 
 const Stack: React.FC = () => {
   return (
-    <div className="p-8 text-white">
+    <div className="p-8 h-full bg-slate-950 text-white">
       <h1 className="text-5xl font-bold mb-4">My Stack</h1>
       <p className="text-lg mb-8">Software and tools I use on a regular basis.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
